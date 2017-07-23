@@ -1,0 +1,27 @@
+{
+   "compilerOptions": {
+       "noImplicitAny" : true,
+       "noImplicitReturns" : true,
+       "noUnusedParameters" :true,
+       "noUnusedLocals" : true,
+       "target": "es2015",
+       "outDir": "js",
+       "sourceMap": false
+
+   },
+
+   "files" : [
+       "./src/app.ts"
+   ],
+
+   "include": [
+        "src/**/*"
+    ],
+
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+
+     "compileOnSave": true
+}
